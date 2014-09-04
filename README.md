@@ -10,7 +10,7 @@ Usage
 
 First of all, download the main script:
 ```
-wget https://raw.githubusercontent.com/CraftThatBlock/SwapUbuntu/master/swap.sh -O swap
+wget http://git.io/MJDcxw -O swap
 ```
 
 Then simply run the file with this format:
