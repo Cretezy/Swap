@@ -5,6 +5,8 @@ Simple swap setup script for Ubuntu (14.04)
 
 Swap is an area on a hard drive that has been designated as a place where the operating system can temporarily store data that it can no longer hold in RAM.
 
+Disclamer: This script may work with other distros, but has not been tested. Please open a pull request if you got it to run or have changes to make it run on other distros.
+
 Usage
 -----
 
