@@ -41,7 +41,7 @@ echo "vm.vfs_cache_pressure=50" | sudo tee /etc/sysctl.conf -a
 # Done
 echo ""
 echo "=========================================================="
-echo "Done! The apply these changes you simply have to restart:"
+echo "Done! To apply these changes you simply have to restart:"
 echo "sudo reboot now"
 echo "=========================================================="
 echo ""
