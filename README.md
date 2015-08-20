@@ -1,6 +1,10 @@
 SwapUbuntu
 ==========
 
+> *Note*: Use the new script: https://github.com/CraftThatBlock/Swap
+> 
+> This one still works fine, but the new works on nearly every distro.
+
 Simple swap setup script for Ubuntu (14.04)
 
 Swap is an area on a hard drive that has been designated as a place where the operating system can temporarily store data that it can no longer hold in RAM.
