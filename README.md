@@ -1,4 +1,4 @@
-Swap
+# Swap
 ==========
 
 Simple swap setup script for Linux
@@ -7,25 +7,17 @@ Swap is an area on a hard drive that has been designated as a place where the op
 
 Disclamer: This script may not work on every GNU/Linux distro. Sorry.
 
-Usage
------
+# Ansible
+==========
+    Ansible Playbook collection to setup basic Linux tools, RVM, ElasticSearch, MongoDB
 
-First of all, download the main script:
-```
-wget http://git.io/vs4UH -O swap
-```
-
-Then simply run the file with this format:
-```
-sh swap {size}
-```
-
-Example (with 4G):
-```
-sh swap 4G
-```
-
-The default path for the swap file is /swapfile. If you wish to change this, simple the file location (file must not exist) add it to the command:
-```
-sh swap 4G /mynewswapfile
-```
+# Run Playbook
+==========
+    ansible-playbook -i 'UR.IP.Address,' server.yml
+    
+# Changes to be made as required
+==========
+    tasks/main.yml
+        1. Change location accordingly
+        2. Change Memory to be allocated 
+        
