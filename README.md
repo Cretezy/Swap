@@ -9,15 +9,17 @@ Disclamer: This script may not work on every GNU/Linux distro. Sorry.
 
 # Ansible
 ==========
-    Ansible Playbook collection to setup basic Linux tools, RVM, ElasticSearch, MongoDB
+    Ansible Playbook collection to make things easier and faster 
 
 # Run Playbook
 ==========
     ansible-playbook -i 'UR.IP.Address,' server.yml
+
+Example : ansible-playbook -i '62.x.x.x,' server.yml
     
 # Changes to be made as required
 ==========
     tasks/main.yml
-        1. Change location accordingly
+        1. Change location - location on your server/instance
         2. Change Memory to be allocated 
         
