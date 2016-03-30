@@ -34,14 +34,14 @@ Ansible Playbook collection to make things easier and faster
 
 ### Run Playbook
 
-`ansible-playbook -i '0.0.0.0' server.yml`
+`ansible-playbook -i '0.0.0.0' ansible-swap/server.yml`
 
 With the server's IP.
 
 
 ### Changes to be made as required
 
-`tasks/main.yml`
+`ansible-swap/tasks/main.yml`
 
 1. Change location - location on your server/instance
 2. Change Memory to be allocated 
