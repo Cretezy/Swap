@@ -1,5 +1,5 @@
 - name: Download Swap File
   get_url: url=https://raw.githubusercontent.com/CraftThatBlock/Swap/master/swap.sh dest=/home/ubuntu mode=0440
 
-- name: Go to the folder and execute command
-  command: chdir=/your/location/here sh swap.sh 2G #define memory you wish to allocate
+- name: Setup Swap
+  command: sh swap.sh 2G # Define memory amount you wish to allocate
