@@ -11,12 +11,10 @@ fi
 
 
 ## Intro
-echo "/============================================================"
-echo "| Welcome to Swap setup script! This script will             "
-echo "| automatically setup a swap file and enable it.             "
-echo "| You (probably) need to enter your root password            " 
-echo "| Note: Source is at https://github.com/CraftThatBlock/Swap  " 
-echo "\============================================================"
+echo "Welcome to Swap setup script! This script will automatically setup a swap file and enable it."
+echo "Root access is required, please run as root or enter sudo password." 
+echo "Source is @ https://github.com/Cretezy/Swap" 
+echo
 
 ## Setup variables
 
@@ -39,6 +37,5 @@ echo "$SWAP_PATH   none    swap    sw    0   0" | sudo tee /etc/fstab -a # Add t
 
 ## Outro
 
-echo "/============================================================"
-echo "| Done! You now have a $SWAP_SIZE swap file at $SWAP_PATH    "
-echo "\============================================================"
+echo
+echo "Done! You now have a $SWAP_SIZE swap file at $SWAP_PATH"
