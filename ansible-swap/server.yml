@@ -1,6 +1,0 @@
----
-- hosts: all
-  remote_user: ubuntu
-  sudo: true
-  roles:
-     - ansible-swap

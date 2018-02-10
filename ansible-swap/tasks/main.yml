@@ -1,5 +1,0 @@
-- name: Download Swap File
-  get_url: url=https://raw.githubusercontent.com/Cretezy/Swap/master/swap.sh dest=/home/ubuntu mode=0440
-
-- name: Setup Swap
-  command: sh swap.sh 2G # Define memory amount you wish to allocate

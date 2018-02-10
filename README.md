@@ -27,21 +27,3 @@ The default path for the swap file is /swapfile. If you wish to change this, sim
 ```
 sh swap 4G /mynewswapfile
 ```
-
-## Ansible
-
-Ansible Playbook collection to make things easier and faster 
-
-### Run Playbook
-
-`ansible-playbook -i '0.0.0.0' ansible-swap/server.yml`
-
-With the server's IP.
-
-
-### Changes to be made as required
-
-`ansible-swap/tasks/main.yml`
-
-1. Change location - location on your server/instance
-2. Change Memory to be allocated 
