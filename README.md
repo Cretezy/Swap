@@ -11,11 +11,13 @@ Disclamer: This script may not work on every GNU/Linux distro. Sorry.
 First of all, download the main script:
 ```
 wget https://raw.githubusercontent.com/Cretezy/Swap/master/swap.sh -O swap
+# or
+curl https://raw.githubusercontent.com/Cretezy/Swap/master/swap.sh -o swap
 ```
 
 Then simply run the file with this format:
 ```
-sh swap {size}
+sh swap <size>
 ```
 
 Example (with 4G):
@@ -25,5 +27,5 @@ sh swap 4G
 
 The default path for the swap file is /swapfile. If you wish to change this, simple the file location (file must not exist) add it to the command:
 ```
-sh swap 4G /mynewswapfile
+sh swap 4G /swap
 ```
