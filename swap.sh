@@ -30,8 +30,8 @@ fi
 
 ## Run
 sudo fallocate -l $SWAP_SIZE $SWAP_PATH  # Allocate size
-sudo chmod 600 $SWAP_PATH                # Make it non-world readable (bad!)
-sudo mkswap $SWAP_PATH                   # Setup swap"         
+sudo chmod 600 $SWAP_PATH                # Set proper permission
+sudo mkswap $SWAP_PATH                   # Setup swap         
 sudo swapon $SWAP_PATH                   # Enable swap
 echo "$SWAP_PATH   none    swap    sw    0   0" | sudo tee /etc/fstab -a # Add to fstab
 
