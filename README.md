@@ -8,11 +8,11 @@ Disclamer: This script may not work on every GNU/Linux distro. Sorry.
 
 ## Usage
 
-First of all, download the main script:
+First of all, download the main script using `wget` or `curl`:
 ```
 wget https://raw.githubusercontent.com/Cretezy/Swap/master/swap.sh -O swap
-# or
-curl https://raw.githubusercontent.com/Cretezy/Swap/master/swap.sh -o swap
+# or using cur:
+# curl https://raw.githubusercontent.com/Cretezy/Swap/master/swap.sh -o swap
 ```
 
 Then simply run the file with this format:
