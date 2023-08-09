@@ -11,7 +11,7 @@ Disclamer: This script may not work on every GNU/Linux distro. Sorry.
 First of all, download the main script using `wget` or `curl`:
 ```
 wget https://raw.githubusercontent.com/Cretezy/Swap/master/swap.sh -O swap
-# or using cur:
+# or using curl:
 # curl https://raw.githubusercontent.com/Cretezy/Swap/master/swap.sh -o swap
 ```
 
